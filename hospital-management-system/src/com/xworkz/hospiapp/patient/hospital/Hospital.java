@@ -8,4 +8,10 @@ public interface Hospital {
   
   boolean addPatient(Patient patient);
   void getAllPatients();
+  Patient getPatientByAddress(String address);
+  String getPatientNameByWardNo(String wardNo);
+  String[] getPatientNameByDiseaseName(String dieaseName);
+  boolean updatePatientDiseaseByPatientName(String existingPatienseName,String updateDiseaseName);
+  boolean updatePatientWardNoByPatientId(int existingId,String updateWardNo);
+  
 }
