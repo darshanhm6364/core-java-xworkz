@@ -10,6 +10,7 @@ import lombok.*;
 @ToString
 @NoArgsConstructor
 public class Patient {
+    
     private int patientId;
     private String patientName;
     private long phoneNumber;
